@@ -1,0 +1,153 @@
+{
+  "data": {
+    "nodePrograms": {
+      "__typename": "NodeProgramConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProgram",
+          "id": "program-backpack",
+          "title": "Backpack Buddies Weekend Food Program",
+          "path": "/programs/backpack-buddies",
+          "body": {
+            "processed": "<p>Backpack Buddies provides food-insecure children with backpacks filled with nutritious, easy-to-prepare meals and snacks for weekends and school breaks when school meals are unavailable.</p><h2>Program Details</h2><ul><li>Discreetly distributed through partner schools every Friday</li><li>Each backpack contains 6 meals and snacks for the weekend</li><li>Foods selected for child-friendliness and nutritional value</li><li>No cooking required - all items can be eaten cold or at room temperature</li></ul><h2>Impact</h2><p>Currently serving 2,400 children at 45 schools across Riverside County. Teachers report improved attendance, behavior, and academic performance among participating students.</p>",
+            "summary": "Backpack Buddies provides food-insecure children with backpacks filled with nutritious, easy-to-prepare meals and snacks for weekends and school breaks when school meals are unavailable.Program Detail"
+          },
+          "programType": [
+            {
+              "id": "youth-programs",
+              "name": "youth-programs"
+            }
+          ],
+          "eligibility": {
+            "processed": "<p>Children enrolled at participating Riverside County schools who are identified by school staff as experiencing food insecurity. Participation is confidential.</p>",
+            "summary": "Children enrolled at participating Riverside County schools who are identified by school staff as experiencing food insecurity. Participation is confidential."
+          },
+          "schedule": "Weekly during the school year (September - June)",
+          "contactPhone": "(951) 555-2430",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Children receiving weekend food backpacks",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-senior",
+          "title": "Golden Harvest Senior Nutrition Program",
+          "path": "/programs/golden-harvest-seniors",
+          "body": {
+            "processed": "<p>The Golden Harvest program ensures seniors in our community have access to nutritious food through monthly food boxes, home delivery, and congregate meal programs.</p><h2>Services</h2><ul><li>Monthly food box with shelf-stable items tailored to senior dietary needs</li><li>Fresh produce delivery for homebound seniors</li><li>Weekly congregate meals at 8 senior centers</li><li>Nutrition counseling and health screenings</li><li>Benefits enrollment assistance (SNAP, Medicaid)</li></ul><h2>Impact</h2><p>The Golden Harvest program serves over 3,800 seniors each month, many of whom are living on fixed incomes and must choose between buying food and paying for medications or utilities.</p>",
+            "summary": "The Golden Harvest program ensures seniors in our community have access to nutritious food through monthly food boxes, home delivery, and congregate meal programs.ServicesMonthly food box with shelf-s"
+          },
+          "programType": [
+            {
+              "id": "senior-programs",
+              "name": "senior-programs"
+            }
+          ],
+          "eligibility": {
+            "processed": "<p>Riverside County residents age 60 and older. Priority given to homebound seniors and those with limited income. No documentation required to receive food assistance.</p>",
+            "summary": "Riverside County residents age 60 and older. Priority given to homebound seniors and those with limited income. No documentation required to receive food assistance."
+          },
+          "schedule": "Monthly distribution; weekly congregate meals",
+          "contactPhone": "(951) 555-2440",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=800&q=80",
+            "alt": "Senior nutrition program meal service",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-community-kitchen",
+          "title": "Community Kitchen Job Training",
+          "path": "/programs/community-kitchen",
+          "body": {
+            "processed": "<p>The Community Kitchen program provides culinary job training to adults facing barriers to employment while preparing nutritious meals for our meal distribution programs.</p><h2>Training Components</h2><ul><li>12-week culinary skills training program</li><li>Food safety certification (ServSafe)</li><li>Kitchen management and inventory skills</li><li>Resume writing and interview preparation</li><li>Job placement assistance with restaurant and catering partners</li></ul><h2>Dual Impact</h2><p>Participants gain valuable job skills while producing over 500 meals per day for our community meal programs. Last year, 85% of graduates were placed in food service employment within 90 days of completing the program.</p>",
+            "summary": "The Community Kitchen program provides culinary job training to adults facing barriers to employment while preparing nutritious meals for our meal distribution programs.Training Components12-week culi"
+          },
+          "programType": [
+            {
+              "id": "community-kitchen",
+              "name": "community-kitchen"
+            }
+          ],
+          "eligibility": {
+            "processed": "<p>Adults 18 and older facing barriers to employment including but not limited to history of homelessness, incarceration, or substance recovery. Must commit to attending 5 days per week for 12 weeks.</p>",
+            "summary": "Adults 18 and older facing barriers to employment including but not limited to history of homelessness, incarceration, or substance recovery. Must commit to attending 5 days per week for 12 weeks."
+          },
+          "schedule": "New cohorts begin quarterly (January, April, July, October)",
+          "contactPhone": "(951) 555-2450",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+            "alt": "Community kitchen training program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

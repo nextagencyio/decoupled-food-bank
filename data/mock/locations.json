@@ -1,0 +1,156 @@
+{
+  "data": {
+    "nodeLocations": {
+      "__typename": "NodeLocationConnection",
+      "nodes": [
+        {
+          "__typename": "NodeLocation",
+          "id": "location-warehouse",
+          "title": "Harvest Hope Main Warehouse & Distribution Center",
+          "path": "/locations/main-warehouse",
+          "body": {
+            "processed": "<p>Our main warehouse is the hub of Harvest Hope Food Bank's operations, serving as the central collection, sorting, and distribution point for all food donations and purchased inventory.</p><h2>Facility Features</h2><ul><li>45,000 square foot warehouse with temperature-controlled storage</li><li>Walk-in coolers and freezers for fresh and frozen food</li><li>Volunteer sorting and packing stations</li><li>Client choice pantry for direct food distribution</li><li>Community room for nutrition education classes</li></ul><h2>Volunteer Opportunities</h2><p>Volunteers are welcome at the warehouse Monday through Saturday. Activities include food sorting, box packing, and distribution assistance. Groups of up to 25 can be accommodated.</p>",
+            "summary": "Our main warehouse is the hub of Harvest Hope Food Bank's operations, serving as the central collection, sorting, and distribution point for all food donations and purchased inventory.Facility Feature"
+          },
+          "address": "750 Distribution Way, Riverside, CA 92501",
+          "phone": "(951) 555-2400",
+          "hours": {
+            "processed": "<p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p><p>Client Choice Pantry:<br>Tuesday & Thursday: 10:00 AM - 2:00 PM<br>Saturday: 9:00 AM - 12:00 PM</p>",
+            "summary": "Monday - Friday: 8:00 AM - 5:00 PMSaturday: 9:00 AM - 1:00 PMSunday: ClosedClient Choice Pantry:Tuesday & Thursday: 10:00 AM - 2:00 PMSaturday: 9:00 AM - 12:00 PM"
+          },
+          "locationType": [
+            {
+              "id": "main-warehouse",
+              "name": "main-warehouse"
+            }
+          ],
+          "servesArea": "All of Riverside County",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+            "alt": "Food bank warehouse operations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeLocation",
+          "id": "location-northside",
+          "title": "Northside Community Pantry",
+          "path": "/locations/northside-community-pantry",
+          "body": {
+            "processed": "<p>The Northside Community Pantry provides free groceries to families and individuals in the Northside neighborhood and surrounding areas. We operate a client-choice model that allows visitors to select foods their families will actually eat.</p><h2>What to Expect</h2><ul><li>Choose from a variety of fresh produce, proteins, dairy, and pantry staples</li><li>No appointment necessary during open hours</li><li>Bilingual staff available (English and Spanish)</li><li>Nutrition information and recipes provided</li></ul><h2>Eligibility</h2><p>Anyone experiencing food insecurity is welcome. No documentation or proof of income required. We ask only that you live in Riverside County.</p>",
+            "summary": "The Northside Community Pantry provides free groceries to families and individuals in the Northside neighborhood and surrounding areas. We operate a client-choice model that allows visitors to select "
+          },
+          "address": "425 Oak Street, Riverside, CA 92507",
+          "phone": "(951) 555-2410",
+          "hours": {
+            "processed": "<p>Monday: 3:00 PM - 6:00 PM<br>Wednesday: 10:00 AM - 1:00 PM<br>Friday: 3:00 PM - 6:00 PM</p>",
+            "summary": "Monday: 3:00 PM - 6:00 PMWednesday: 10:00 AM - 1:00 PMFriday: 3:00 PM - 6:00 PM"
+          },
+          "locationType": [
+            {
+              "id": "community-pantry",
+              "name": "community-pantry"
+            }
+          ],
+          "servesArea": "Northside, Arlington, and La Sierra neighborhoods",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&q=80",
+            "alt": "Community food pantry with fresh produce",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeLocation",
+          "id": "location-mobile",
+          "title": "Mobile Market - Rotating Locations",
+          "path": "/locations/mobile-market",
+          "body": {
+            "processed": "<p>The Harvest Hope Mobile Market brings fresh, nutritious food directly to underserved neighborhoods that lack easy access to grocery stores or our fixed pantry locations.</p><h2>How It Works</h2><ul><li>Our refrigerated truck visits a different location each day of the week</li><li>Free fresh produce, dairy, bread, and proteins available</li><li>No registration or appointment needed</li><li>First come, first served while supplies last</li></ul><h2>Weekly Schedule</h2><ul><li>Monday: Eastside Community Center, 10:00 AM - 12:00 PM</li><li>Tuesday: Moreno Valley Library, 2:00 PM - 4:00 PM</li><li>Wednesday: Perris Senior Center, 10:00 AM - 12:00 PM</li><li>Thursday: Lake Elsinore Town Square, 2:00 PM - 4:00 PM</li><li>Friday: Corona Park, 10:00 AM - 12:00 PM</li></ul>",
+            "summary": "The Harvest Hope Mobile Market brings fresh, nutritious food directly to underserved neighborhoods that lack easy access to grocery stores or our fixed pantry locations.How It WorksOur refrigerated tr"
+          },
+          "address": "Various locations throughout Riverside County",
+          "phone": "(951) 555-2420",
+          "hours": {
+            "processed": "<p>See weekly schedule for specific times and locations. Check our website or call for weather-related cancellations.</p>",
+            "summary": "See weekly schedule for specific times and locations. Check our website or call for weather-related cancellations."
+          },
+          "locationType": [
+            {
+              "id": "mobile-distribution",
+              "name": "mobile-distribution"
+            }
+          ],
+          "servesArea": "Riverside County underserved neighborhoods",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=800&q=80",
+            "alt": "Mobile food distribution truck",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

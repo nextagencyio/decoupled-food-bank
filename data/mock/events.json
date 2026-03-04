@@ -1,0 +1,159 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-food-drive",
+          "title": "Spring Community Food Drive",
+          "path": "/events/spring-food-drive",
+          "body": {
+            "processed": "<p>Join Harvest Hope Food Bank for our annual Spring Community Food Drive. Drop off non-perishable food donations at any of our 35 collection sites throughout Riverside County.</p><h2>Most Needed Items</h2><ul><li>Canned vegetables and fruit (low sodium/no sugar added preferred)</li><li>Peanut butter and other nut butters</li><li>Whole grain pasta and rice</li><li>Canned tuna, chicken, and beans</li><li>Cooking oil and spices</li><li>Baby food and formula</li></ul><h2>Collection Sites</h2><p>Drop-off locations include all Riverside County libraries, participating grocery stores, fire stations, and our main warehouse. Visit our website for a complete list of collection sites.</p>",
+            "summary": "Join Harvest Hope Food Bank for our annual Spring Community Food Drive. Drop off non-perishable food donations at any of our 35 collection sites throughout Riverside County.Most Needed ItemsCanned veg"
+          },
+          "eventDate": {
+            "timestamp": 1775048400
+          },
+          "endDate": {
+            "timestamp": 1776207600
+          },
+          "location": "35 collection sites throughout Riverside County",
+          "eventType": [
+            {
+              "id": "food-drive",
+              "name": "food-drive"
+            }
+          ],
+          "volunteersNeeded": 150,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+            "alt": "Community food drive collection",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-sort-day",
+          "title": "Volunteer Sort Day - March",
+          "path": "/events/volunteer-sort-day-march",
+          "body": {
+            "processed": "<p>Help us sort and pack thousands of pounds of donated food at our main warehouse. This is a great opportunity for individuals, families, and corporate groups to make an immediate impact.</p><h2>What to Expect</h2><ul><li>Brief orientation and safety training (15 minutes)</li><li>Sort and inspect donated food items for quality</li><li>Pack family food boxes and backpack program bags</li><li>Light to moderate physical activity (standing, lifting up to 30 lbs)</li></ul><h2>What to Bring</h2><p>Wear closed-toe shoes and comfortable clothing. Water and snacks provided. All volunteers must sign a waiver (minors need parent/guardian signature).</p>",
+            "summary": "Help us sort and pack thousands of pounds of donated food at our main warehouse. This is a great opportunity for individuals, families, and corporate groups to make an immediate impact.What to ExpectB"
+          },
+          "eventDate": {
+            "timestamp": 1774188000
+          },
+          "endDate": {
+            "timestamp": 1774202400
+          },
+          "location": "Harvest Hope Main Warehouse, 750 Distribution Way",
+          "eventType": [
+            {
+              "id": "volunteer-day",
+              "name": "volunteer-day"
+            }
+          ],
+          "volunteersNeeded": 40,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+            "alt": "Volunteers sorting and packing food donations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Harvest Gala 2026 - An Evening to End Hunger",
+          "path": "/events/harvest-gala-2026",
+          "body": {
+            "processed": "<p>Join us for our annual fundraising gala, featuring a gourmet dinner prepared by local chefs, live music, a silent auction, and inspiring stories from the families we serve.</p><h2>Event Highlights</h2><ul><li>Gourmet four-course dinner by Chef Maria Santos of Riverside Bistro</li><li>Live music by the Riverside Jazz Quartet</li><li>Silent auction with over 100 donated items and experiences</li><li>Keynote address by nationally recognized hunger policy expert</li><li>Community Impact Awards presentation</li></ul><h2>Tickets</h2><p>Individual tickets: $150. Tables of 10: $1,250. Corporate sponsorship packages available starting at $2,500. All proceeds support Harvest Hope Food Bank's hunger relief programs.</p>",
+            "summary": "Join us for our annual fundraising gala, featuring a gourmet dinner prepared by local chefs, live music, a silent auction, and inspiring stories from the families we serve.Event HighlightsGourmet four"
+          },
+          "eventDate": {
+            "timestamp": 1778972400
+          },
+          "endDate": {
+            "timestamp": 1778986800
+          },
+          "location": "Riverside Convention Center, Grand Ballroom",
+          "eventType": [
+            {
+              "id": "fundraiser",
+              "name": "fundraiser"
+            }
+          ],
+          "volunteersNeeded": 25,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Fundraising gala dinner event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

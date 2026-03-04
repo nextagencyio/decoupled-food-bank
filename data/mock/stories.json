@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeImpactStories": {
+      "__typename": "NodeImpactStoryConnection",
+      "nodes": [
+        {
+          "__typename": "NodeImpactStory",
+          "id": "story-martinez-family",
+          "title": "The Martinez Family: From Recipients to Volunteers",
+          "path": "/stories/martinez-family-story",
+          "body": {
+            "processed": "<p>When Maria Martinez lost her job during the pandemic, feeding her three children became her biggest worry. \"I didn't know where our next meal was coming from,\" she recalls. \"Walking into the food pantry for the first time was the hardest thing I've ever done.\"</p><h2>Finding Help</h2><p>A school counselor told Maria about the Backpack Buddies program, which was already sending food home with her youngest child on Fridays. The counselor connected her to the Northside Community Pantry, where she could pick up groceries for the whole family.</p><h2>Giving Back</h2><p>After finding a new job, Maria began volunteering at the same pantry that had helped her family. Today, she volunteers every Saturday and has become a mentor to other families who come through the door for the first time.</p><p>\"I know what it feels like to need help,\" Maria says. \"I want other families to know there's no shame in it. Harvest Hope was there for us, and now I'm here for others.\"</p>",
+            "summary": "When Maria Martinez lost her job during the pandemic, feeding her three children became her biggest worry. \"I didn't know where our next meal was coming from,\" she recalls. \"Walking into the food pant"
+          },
+          "storyCategory": [
+            {
+              "id": "client-stories",
+              "name": "client-stories"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+            "alt": "Family volunteering at food bank together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeImpactStory",
+          "id": "story-corporate-partner",
+          "title": "Riverside Tech: A Partnership That Multiplies Impact",
+          "path": "/stories/riverside-tech-partnership",
+          "body": {
+            "processed": "<p>When Riverside Technology Solutions decided to launch a corporate social responsibility program, they wanted to make a meaningful local impact. A partnership with Harvest Hope Food Bank proved to be the perfect fit.</p><h2>The Partnership</h2><ul><li>Monthly volunteer days with 20-30 employees sorting and packing food</li><li>Annual food drive collecting over 15,000 pounds of food</li><li>$50,000 annual donation matched by employee giving</li><li>Technology support: upgraded inventory management system at no cost</li></ul><h2>Employee Impact</h2><p>\"Volunteering at Harvest Hope has become one of the most popular activities at our company,\" says CEO Jennifer Huang. \"Our employees come back energized and grateful, and it's strengthened our team culture in ways we didn't expect.\"</p>",
+            "summary": "When Riverside Technology Solutions decided to launch a corporate social responsibility program, they wanted to make a meaningful local impact. A partnership with Harvest Hope Food Bank proved to be t"
+          },
+          "storyCategory": [
+            {
+              "id": "partner-highlights",
+              "name": "partner-highlights"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+            "alt": "Corporate volunteer team at food bank",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeImpactStory",
+          "id": "story-volunteer",
+          "title": "Tom Henderson: 10,000 Hours and Counting",
+          "path": "/stories/tom-henderson-volunteer",
+          "body": {
+            "processed": "<p>Tom Henderson retired from teaching in 2016 and was looking for a way to stay active and make a difference. A friend suggested he volunteer at Harvest Hope Food Bank. Nearly a decade later, Tom has logged over 10,000 volunteer hours.</p><h2>A Typical Week</h2><p>Tom volunteers three days a week at the main warehouse, arriving at 7:30 AM to help unload food donations and organize inventory. On Tuesdays, he works the client choice pantry, helping families select their groceries.</p><h2>Why He Keeps Coming Back</h2><p>\"Every box I pack is going to feed a family,\" Tom says. \"That's not abstract to me. I see the parents come through the pantry line with their kids, and I know what we do here matters. As long as I'm able, I'll keep showing up.\"</p><p>Tom was awarded the 2025 Volunteer of the Year award at the annual Harvest Gala.</p>",
+            "summary": "Tom Henderson retired from teaching in 2016 and was looking for a way to stay active and make a difference. A friend suggested he volunteer at Harvest Hope Food Bank. Nearly a decade later, Tom has lo"
+          },
+          "storyCategory": [
+            {
+              "id": "volunteer-spotlights",
+              "name": "volunteer-spotlights"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+            "alt": "Dedicated volunteer working at food bank",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

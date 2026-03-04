@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Harvest Hope Food Bank",
+          "path": "/homepage",
+          "heroTitle": "Fighting Hunger, Feeding Hope",
+          "heroSubtitle": "Nourishing Our Community, One Meal at a Time",
+          "heroDescription": {
+            "processed": "<p>Harvest Hope Food Bank works to end hunger in our community by providing nutritious food to families, children, and seniors in need. Through our network of pantries, programs, and dedicated volunteers, no one in our community goes hungry.</p>",
+            "summary": "Harvest Hope Food Bank works to end hunger in our community by providing nutritious food to families, children, and seniors in need. Through our network of pantries, programs, and dedicated volunteers"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-meals",
+              "title": "",
+              "number": "4.2M",
+              "label": "Meals Provided"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-families",
+              "title": "",
+              "number": "38,000",
+              "label": "Families Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-volunteers",
+              "title": "",
+              "number": "5,200",
+              "label": "Volunteers"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-partners",
+              "title": "",
+              "number": "180",
+              "label": "Community Partners"
+            }
+          ],
+          "featuredItemsTitle": "Our Programs",
+          "ctaTitle": "Help Us End Hunger",
+          "ctaDescription": {
+            "processed": "<p>Every dollar donated provides 5 meals to families facing food insecurity. Together, we can ensure every person in our community has access to nutritious food.</p>",
+            "summary": "Every dollar donated provides 5 meals to families facing food insecurity. Together, we can ensure every person in our community has access to nutritious food."
+          },
+          "ctaPrimary": "Donate Today",
+          "ctaSecondary": "Volunteer With Us"
+        }
+      ]
+    }
+  }
+}

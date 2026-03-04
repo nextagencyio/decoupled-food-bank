@@ -1,0 +1,747 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Harvest Hope Food Bank",
+          "path": "/homepage",
+          "heroTitle": "Fighting Hunger, Feeding Hope",
+          "heroSubtitle": "Nourishing Our Community, One Meal at a Time",
+          "heroDescription": {
+            "processed": "<p>Harvest Hope Food Bank works to end hunger in our community by providing nutritious food to families, children, and seniors in need. Through our network of pantries, programs, and dedicated volunteers, no one in our community goes hungry.</p>",
+            "summary": "Harvest Hope Food Bank works to end hunger in our community by providing nutritious food to families, children, and seniors in need. Through our network of pantries, programs, and dedicated volunteers"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-meals",
+              "title": "",
+              "number": "4.2M",
+              "label": "Meals Provided"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-families",
+              "title": "",
+              "number": "38,000",
+              "label": "Families Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-volunteers",
+              "title": "",
+              "number": "5,200",
+              "label": "Volunteers"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-partners",
+              "title": "",
+              "number": "180",
+              "label": "Community Partners"
+            }
+          ],
+          "featuredItemsTitle": "Our Programs",
+          "ctaTitle": "Help Us End Hunger",
+          "ctaDescription": {
+            "processed": "<p>Every dollar donated provides 5 meals to families facing food insecurity. Together, we can ensure every person in our community has access to nutritious food.</p>",
+            "summary": "Every dollar donated provides 5 meals to families facing food insecurity. Together, we can ensure every person in our community has access to nutritious food."
+          },
+          "ctaPrimary": "Donate Today",
+          "ctaSecondary": "Volunteer With Us"
+        }
+      }
+    }
+  },
+  "/locations/main-warehouse": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLocation",
+          "id": "location-warehouse",
+          "title": "Harvest Hope Main Warehouse & Distribution Center",
+          "path": "/locations/main-warehouse",
+          "body": {
+            "processed": "<p>Our main warehouse is the hub of Harvest Hope Food Bank's operations, serving as the central collection, sorting, and distribution point for all food donations and purchased inventory.</p><h2>Facility Features</h2><ul><li>45,000 square foot warehouse with temperature-controlled storage</li><li>Walk-in coolers and freezers for fresh and frozen food</li><li>Volunteer sorting and packing stations</li><li>Client choice pantry for direct food distribution</li><li>Community room for nutrition education classes</li></ul><h2>Volunteer Opportunities</h2><p>Volunteers are welcome at the warehouse Monday through Saturday. Activities include food sorting, box packing, and distribution assistance. Groups of up to 25 can be accommodated.</p>",
+            "summary": "Our main warehouse is the hub of Harvest Hope Food Bank's operations, serving as the central collection, sorting, and distribution point for all food donations and purchased inventory.Facility Feature"
+          },
+          "address": "750 Distribution Way, Riverside, CA 92501",
+          "phone": "(951) 555-2400",
+          "hours": {
+            "processed": "<p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p><p>Client Choice Pantry:<br>Tuesday & Thursday: 10:00 AM - 2:00 PM<br>Saturday: 9:00 AM - 12:00 PM</p>",
+            "summary": "Monday - Friday: 8:00 AM - 5:00 PMSaturday: 9:00 AM - 1:00 PMSunday: ClosedClient Choice Pantry:Tuesday & Thursday: 10:00 AM - 2:00 PMSaturday: 9:00 AM - 12:00 PM"
+          },
+          "locationType": [
+            {
+              "id": "main-warehouse",
+              "name": "main-warehouse"
+            }
+          ],
+          "servesArea": "All of Riverside County",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+            "alt": "Food bank warehouse operations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/locations/northside-community-pantry": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLocation",
+          "id": "location-northside",
+          "title": "Northside Community Pantry",
+          "path": "/locations/northside-community-pantry",
+          "body": {
+            "processed": "<p>The Northside Community Pantry provides free groceries to families and individuals in the Northside neighborhood and surrounding areas. We operate a client-choice model that allows visitors to select foods their families will actually eat.</p><h2>What to Expect</h2><ul><li>Choose from a variety of fresh produce, proteins, dairy, and pantry staples</li><li>No appointment necessary during open hours</li><li>Bilingual staff available (English and Spanish)</li><li>Nutrition information and recipes provided</li></ul><h2>Eligibility</h2><p>Anyone experiencing food insecurity is welcome. No documentation or proof of income required. We ask only that you live in Riverside County.</p>",
+            "summary": "The Northside Community Pantry provides free groceries to families and individuals in the Northside neighborhood and surrounding areas. We operate a client-choice model that allows visitors to select "
+          },
+          "address": "425 Oak Street, Riverside, CA 92507",
+          "phone": "(951) 555-2410",
+          "hours": {
+            "processed": "<p>Monday: 3:00 PM - 6:00 PM<br>Wednesday: 10:00 AM - 1:00 PM<br>Friday: 3:00 PM - 6:00 PM</p>",
+            "summary": "Monday: 3:00 PM - 6:00 PMWednesday: 10:00 AM - 1:00 PMFriday: 3:00 PM - 6:00 PM"
+          },
+          "locationType": [
+            {
+              "id": "community-pantry",
+              "name": "community-pantry"
+            }
+          ],
+          "servesArea": "Northside, Arlington, and La Sierra neighborhoods",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&q=80",
+            "alt": "Community food pantry with fresh produce",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/locations/mobile-market": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLocation",
+          "id": "location-mobile",
+          "title": "Mobile Market - Rotating Locations",
+          "path": "/locations/mobile-market",
+          "body": {
+            "processed": "<p>The Harvest Hope Mobile Market brings fresh, nutritious food directly to underserved neighborhoods that lack easy access to grocery stores or our fixed pantry locations.</p><h2>How It Works</h2><ul><li>Our refrigerated truck visits a different location each day of the week</li><li>Free fresh produce, dairy, bread, and proteins available</li><li>No registration or appointment needed</li><li>First come, first served while supplies last</li></ul><h2>Weekly Schedule</h2><ul><li>Monday: Eastside Community Center, 10:00 AM - 12:00 PM</li><li>Tuesday: Moreno Valley Library, 2:00 PM - 4:00 PM</li><li>Wednesday: Perris Senior Center, 10:00 AM - 12:00 PM</li><li>Thursday: Lake Elsinore Town Square, 2:00 PM - 4:00 PM</li><li>Friday: Corona Park, 10:00 AM - 12:00 PM</li></ul>",
+            "summary": "The Harvest Hope Mobile Market brings fresh, nutritious food directly to underserved neighborhoods that lack easy access to grocery stores or our fixed pantry locations.How It WorksOur refrigerated tr"
+          },
+          "address": "Various locations throughout Riverside County",
+          "phone": "(951) 555-2420",
+          "hours": {
+            "processed": "<p>See weekly schedule for specific times and locations. Check our website or call for weather-related cancellations.</p>",
+            "summary": "See weekly schedule for specific times and locations. Check our website or call for weather-related cancellations."
+          },
+          "locationType": [
+            {
+              "id": "mobile-distribution",
+              "name": "mobile-distribution"
+            }
+          ],
+          "servesArea": "Riverside County underserved neighborhoods",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=800&q=80",
+            "alt": "Mobile food distribution truck",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594708767771-a7502209ff51?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/backpack-buddies": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-backpack",
+          "title": "Backpack Buddies Weekend Food Program",
+          "path": "/programs/backpack-buddies",
+          "body": {
+            "processed": "<p>Backpack Buddies provides food-insecure children with backpacks filled with nutritious, easy-to-prepare meals and snacks for weekends and school breaks when school meals are unavailable.</p><h2>Program Details</h2><ul><li>Discreetly distributed through partner schools every Friday</li><li>Each backpack contains 6 meals and snacks for the weekend</li><li>Foods selected for child-friendliness and nutritional value</li><li>No cooking required - all items can be eaten cold or at room temperature</li></ul><h2>Impact</h2><p>Currently serving 2,400 children at 45 schools across Riverside County. Teachers report improved attendance, behavior, and academic performance among participating students.</p>",
+            "summary": "Backpack Buddies provides food-insecure children with backpacks filled with nutritious, easy-to-prepare meals and snacks for weekends and school breaks when school meals are unavailable.Program Detail"
+          },
+          "programType": [
+            {
+              "id": "youth-programs",
+              "name": "youth-programs"
+            }
+          ],
+          "eligibility": {
+            "processed": "<p>Children enrolled at participating Riverside County schools who are identified by school staff as experiencing food insecurity. Participation is confidential.</p>",
+            "summary": "Children enrolled at participating Riverside County schools who are identified by school staff as experiencing food insecurity. Participation is confidential."
+          },
+          "schedule": "Weekly during the school year (September - June)",
+          "contactPhone": "(951) 555-2430",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Children receiving weekend food backpacks",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/golden-harvest-seniors": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-senior",
+          "title": "Golden Harvest Senior Nutrition Program",
+          "path": "/programs/golden-harvest-seniors",
+          "body": {
+            "processed": "<p>The Golden Harvest program ensures seniors in our community have access to nutritious food through monthly food boxes, home delivery, and congregate meal programs.</p><h2>Services</h2><ul><li>Monthly food box with shelf-stable items tailored to senior dietary needs</li><li>Fresh produce delivery for homebound seniors</li><li>Weekly congregate meals at 8 senior centers</li><li>Nutrition counseling and health screenings</li><li>Benefits enrollment assistance (SNAP, Medicaid)</li></ul><h2>Impact</h2><p>The Golden Harvest program serves over 3,800 seniors each month, many of whom are living on fixed incomes and must choose between buying food and paying for medications or utilities.</p>",
+            "summary": "The Golden Harvest program ensures seniors in our community have access to nutritious food through monthly food boxes, home delivery, and congregate meal programs.ServicesMonthly food box with shelf-s"
+          },
+          "programType": [
+            {
+              "id": "senior-programs",
+              "name": "senior-programs"
+            }
+          ],
+          "eligibility": {
+            "processed": "<p>Riverside County residents age 60 and older. Priority given to homebound seniors and those with limited income. No documentation required to receive food assistance.</p>",
+            "summary": "Riverside County residents age 60 and older. Priority given to homebound seniors and those with limited income. No documentation required to receive food assistance."
+          },
+          "schedule": "Monthly distribution; weekly congregate meals",
+          "contactPhone": "(951) 555-2440",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=800&q=80",
+            "alt": "Senior nutrition program meal service",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1516307365426-bea591f05011?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/community-kitchen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-community-kitchen",
+          "title": "Community Kitchen Job Training",
+          "path": "/programs/community-kitchen",
+          "body": {
+            "processed": "<p>The Community Kitchen program provides culinary job training to adults facing barriers to employment while preparing nutritious meals for our meal distribution programs.</p><h2>Training Components</h2><ul><li>12-week culinary skills training program</li><li>Food safety certification (ServSafe)</li><li>Kitchen management and inventory skills</li><li>Resume writing and interview preparation</li><li>Job placement assistance with restaurant and catering partners</li></ul><h2>Dual Impact</h2><p>Participants gain valuable job skills while producing over 500 meals per day for our community meal programs. Last year, 85% of graduates were placed in food service employment within 90 days of completing the program.</p>",
+            "summary": "The Community Kitchen program provides culinary job training to adults facing barriers to employment while preparing nutritious meals for our meal distribution programs.Training Components12-week culi"
+          },
+          "programType": [
+            {
+              "id": "community-kitchen",
+              "name": "community-kitchen"
+            }
+          ],
+          "eligibility": {
+            "processed": "<p>Adults 18 and older facing barriers to employment including but not limited to history of homelessness, incarceration, or substance recovery. Must commit to attending 5 days per week for 12 weeks.</p>",
+            "summary": "Adults 18 and older facing barriers to employment including but not limited to history of homelessness, incarceration, or substance recovery. Must commit to attending 5 days per week for 12 weeks."
+          },
+          "schedule": "New cohorts begin quarterly (January, April, July, October)",
+          "contactPhone": "(951) 555-2450",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+            "alt": "Community kitchen training program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/spring-food-drive": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-food-drive",
+          "title": "Spring Community Food Drive",
+          "path": "/events/spring-food-drive",
+          "body": {
+            "processed": "<p>Join Harvest Hope Food Bank for our annual Spring Community Food Drive. Drop off non-perishable food donations at any of our 35 collection sites throughout Riverside County.</p><h2>Most Needed Items</h2><ul><li>Canned vegetables and fruit (low sodium/no sugar added preferred)</li><li>Peanut butter and other nut butters</li><li>Whole grain pasta and rice</li><li>Canned tuna, chicken, and beans</li><li>Cooking oil and spices</li><li>Baby food and formula</li></ul><h2>Collection Sites</h2><p>Drop-off locations include all Riverside County libraries, participating grocery stores, fire stations, and our main warehouse. Visit our website for a complete list of collection sites.</p>",
+            "summary": "Join Harvest Hope Food Bank for our annual Spring Community Food Drive. Drop off non-perishable food donations at any of our 35 collection sites throughout Riverside County.Most Needed ItemsCanned veg"
+          },
+          "eventDate": {
+            "timestamp": 1775048400
+          },
+          "endDate": {
+            "timestamp": 1776207600
+          },
+          "location": "35 collection sites throughout Riverside County",
+          "eventType": [
+            {
+              "id": "food-drive",
+              "name": "food-drive"
+            }
+          ],
+          "volunteersNeeded": 150,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+            "alt": "Community food drive collection",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/volunteer-sort-day-march": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-sort-day",
+          "title": "Volunteer Sort Day - March",
+          "path": "/events/volunteer-sort-day-march",
+          "body": {
+            "processed": "<p>Help us sort and pack thousands of pounds of donated food at our main warehouse. This is a great opportunity for individuals, families, and corporate groups to make an immediate impact.</p><h2>What to Expect</h2><ul><li>Brief orientation and safety training (15 minutes)</li><li>Sort and inspect donated food items for quality</li><li>Pack family food boxes and backpack program bags</li><li>Light to moderate physical activity (standing, lifting up to 30 lbs)</li></ul><h2>What to Bring</h2><p>Wear closed-toe shoes and comfortable clothing. Water and snacks provided. All volunteers must sign a waiver (minors need parent/guardian signature).</p>",
+            "summary": "Help us sort and pack thousands of pounds of donated food at our main warehouse. This is a great opportunity for individuals, families, and corporate groups to make an immediate impact.What to ExpectB"
+          },
+          "eventDate": {
+            "timestamp": 1774188000
+          },
+          "endDate": {
+            "timestamp": 1774202400
+          },
+          "location": "Harvest Hope Main Warehouse, 750 Distribution Way",
+          "eventType": [
+            {
+              "id": "volunteer-day",
+              "name": "volunteer-day"
+            }
+          ],
+          "volunteersNeeded": 40,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+            "alt": "Volunteers sorting and packing food donations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/harvest-gala-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-gala",
+          "title": "Harvest Gala 2026 - An Evening to End Hunger",
+          "path": "/events/harvest-gala-2026",
+          "body": {
+            "processed": "<p>Join us for our annual fundraising gala, featuring a gourmet dinner prepared by local chefs, live music, a silent auction, and inspiring stories from the families we serve.</p><h2>Event Highlights</h2><ul><li>Gourmet four-course dinner by Chef Maria Santos of Riverside Bistro</li><li>Live music by the Riverside Jazz Quartet</li><li>Silent auction with over 100 donated items and experiences</li><li>Keynote address by nationally recognized hunger policy expert</li><li>Community Impact Awards presentation</li></ul><h2>Tickets</h2><p>Individual tickets: $150. Tables of 10: $1,250. Corporate sponsorship packages available starting at $2,500. All proceeds support Harvest Hope Food Bank's hunger relief programs.</p>",
+            "summary": "Join us for our annual fundraising gala, featuring a gourmet dinner prepared by local chefs, live music, a silent auction, and inspiring stories from the families we serve.Event HighlightsGourmet four"
+          },
+          "eventDate": {
+            "timestamp": 1778972400
+          },
+          "endDate": {
+            "timestamp": 1778986800
+          },
+          "location": "Riverside Convention Center, Grand Ballroom",
+          "eventType": [
+            {
+              "id": "fundraiser",
+              "name": "fundraiser"
+            }
+          ],
+          "volunteersNeeded": 25,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Fundraising gala dinner event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/stories/martinez-family-story": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeImpactStory",
+          "id": "story-martinez-family",
+          "title": "The Martinez Family: From Recipients to Volunteers",
+          "path": "/stories/martinez-family-story",
+          "body": {
+            "processed": "<p>When Maria Martinez lost her job during the pandemic, feeding her three children became her biggest worry. \"I didn't know where our next meal was coming from,\" she recalls. \"Walking into the food pantry for the first time was the hardest thing I've ever done.\"</p><h2>Finding Help</h2><p>A school counselor told Maria about the Backpack Buddies program, which was already sending food home with her youngest child on Fridays. The counselor connected her to the Northside Community Pantry, where she could pick up groceries for the whole family.</p><h2>Giving Back</h2><p>After finding a new job, Maria began volunteering at the same pantry that had helped her family. Today, she volunteers every Saturday and has become a mentor to other families who come through the door for the first time.</p><p>\"I know what it feels like to need help,\" Maria says. \"I want other families to know there's no shame in it. Harvest Hope was there for us, and now I'm here for others.\"</p>",
+            "summary": "When Maria Martinez lost her job during the pandemic, feeding her three children became her biggest worry. \"I didn't know where our next meal was coming from,\" she recalls. \"Walking into the food pant"
+          },
+          "storyCategory": [
+            {
+              "id": "client-stories",
+              "name": "client-stories"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+            "alt": "Family volunteering at food bank together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/stories/riverside-tech-partnership": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeImpactStory",
+          "id": "story-corporate-partner",
+          "title": "Riverside Tech: A Partnership That Multiplies Impact",
+          "path": "/stories/riverside-tech-partnership",
+          "body": {
+            "processed": "<p>When Riverside Technology Solutions decided to launch a corporate social responsibility program, they wanted to make a meaningful local impact. A partnership with Harvest Hope Food Bank proved to be the perfect fit.</p><h2>The Partnership</h2><ul><li>Monthly volunteer days with 20-30 employees sorting and packing food</li><li>Annual food drive collecting over 15,000 pounds of food</li><li>$50,000 annual donation matched by employee giving</li><li>Technology support: upgraded inventory management system at no cost</li></ul><h2>Employee Impact</h2><p>\"Volunteering at Harvest Hope has become one of the most popular activities at our company,\" says CEO Jennifer Huang. \"Our employees come back energized and grateful, and it's strengthened our team culture in ways we didn't expect.\"</p>",
+            "summary": "When Riverside Technology Solutions decided to launch a corporate social responsibility program, they wanted to make a meaningful local impact. A partnership with Harvest Hope Food Bank proved to be t"
+          },
+          "storyCategory": [
+            {
+              "id": "partner-highlights",
+              "name": "partner-highlights"
+            }
+          ],
+          "featured": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+            "alt": "Corporate volunteer team at food bank",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/stories/tom-henderson-volunteer": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeImpactStory",
+          "id": "story-volunteer",
+          "title": "Tom Henderson: 10,000 Hours and Counting",
+          "path": "/stories/tom-henderson-volunteer",
+          "body": {
+            "processed": "<p>Tom Henderson retired from teaching in 2016 and was looking for a way to stay active and make a difference. A friend suggested he volunteer at Harvest Hope Food Bank. Nearly a decade later, Tom has logged over 10,000 volunteer hours.</p><h2>A Typical Week</h2><p>Tom volunteers three days a week at the main warehouse, arriving at 7:30 AM to help unload food donations and organize inventory. On Tuesdays, he works the client choice pantry, helping families select their groceries.</p><h2>Why He Keeps Coming Back</h2><p>\"Every box I pack is going to feed a family,\" Tom says. \"That's not abstract to me. I see the parents come through the pantry line with their kids, and I know what we do here matters. As long as I'm able, I'll keep showing up.\"</p><p>Tom was awarded the 2025 Volunteer of the Year award at the annual Harvest Gala.</p>",
+            "summary": "Tom Henderson retired from teaching in 2016 and was looking for a way to stay active and make a difference. A friend suggested he volunteer at Harvest Hope Food Bank. Nearly a decade later, Tom has lo"
+          },
+          "storyCategory": [
+            {
+              "id": "volunteer-spotlights",
+              "name": "volunteer-spotlights"
+            }
+          ],
+          "featured": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+            "alt": "Dedicated volunteer working at food bank",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Harvest Hope Food Bank",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Harvest Hope Food Bank is a nonprofit organization dedicated to eliminating hunger in Riverside County. Founded in 2005, we have grown from a small pantry serving 200 families per month to a comprehensive food bank distributing 4.2 million meals annually.</p><h2>Our Mission</h2><p>To end hunger in our community by providing nutritious food to those in need while building a more food-secure future through education, advocacy, and community partnerships.</p><h2>How We Work</h2><ul><li>Source food through donations, food rescue, and wholesale purchasing</li><li>Sort, store, and distribute through our warehouse and 12 pantry locations</li><li>Operate specialized programs for children, seniors, and families in crisis</li><li>Advocate for public policies that reduce food insecurity</li><li>Educate communities about nutrition and healthy eating</li></ul><h2>Our Impact</h2><p>Last year, Harvest Hope distributed 4.2 million meals to 38,000 families through our network of pantries, programs, and partner agencies. Every dollar donated provides 5 meals to neighbors in need.</p>",
+            "summary": "Harvest Hope Food Bank is a nonprofit organization dedicated to eliminating hunger in Riverside County. Founded in 2005, we have grown from a small pantry serving 200 families per month to a comprehen"
+          }
+        }
+      }
+    }
+  },
+  "/get-help": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-get-help",
+          "title": "Get Help - Find Food Near You",
+          "path": "/get-help",
+          "body": {
+            "processed": "<p>If you or someone you know is struggling to afford food, Harvest Hope Food Bank is here to help. No one should go hungry, and there is no shame in asking for assistance.</p><h2>How to Get Food</h2><ul><li>Visit any of our 12 pantry locations during open hours - no appointment needed</li><li>Check our Mobile Market schedule for free produce distributions</li><li>Call our helpline at (951) 555-2400 to find the nearest distribution site</li></ul><h2>What to Expect</h2><p>Your first visit is easy. Just bring a form of ID (or tell us your name and address). You will be able to choose from a variety of fresh and pantry items to take home for your family. Visits are confidential.</p><h2>Additional Resources</h2><ul><li>SNAP benefits enrollment assistance</li><li>CalFresh application help</li><li>Referrals to partner agencies for housing, utilities, and healthcare</li><li>Nutrition education classes</li></ul>",
+            "summary": "If you or someone you know is struggling to afford food, Harvest Hope Food Bank is here to help. No one should go hungry, and there is no shame in asking for assistance.How to Get FoodVisit any of our"
+          }
+        }
+      }
+    }
+  }
+}
