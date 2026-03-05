@@ -39,7 +39,7 @@ const galleryImages = [
 
 export default function HomepageRenderer({ homepageContent }: HomepageRendererProps) {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#fffdf8]">
       <Header />
 
       <ErrorBoundary>
@@ -51,10 +51,10 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </ErrorBoundary>
 
       {/* Programs - List View */}
-      <section className="bg-white py-16">
+      <section className="bg-[#fffdf8] py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-sm font-medium tracking-widest text-gray-400 uppercase mb-8">Our Programs</h2>
-          <div className="border-t border-gray-200">
+          <h2 className="font-heading text-3xl font-bold text-primary-900 mb-8">Our Programs</h2>
+          <div className="border-t border-gray-200 bg-white rounded-xl shadow-sm overflow-hidden">
             {programs.map((program, i) => (
               <Link
                 key={i}
@@ -75,13 +75,13 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </section>
 
       {/* Icon Showcase */}
-      <section className="bg-white py-16">
+      <section className="bg-primary-50 py-16 border-y border-primary-100">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-sm font-medium tracking-widest text-gray-400 uppercase mb-12">How We Help</h2>
+          <h2 className="font-heading text-3xl font-bold text-primary-900 mb-12 text-center">How We Help</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
             {icons.map((item, i) => (
               <div key={i} className="flex flex-col items-center text-center">
-                <item.icon className="w-6 h-6 text-primary-600 mb-3" strokeWidth={1.5} />
+                <item.icon className="w-6 h-6 text-primary-700 mb-3" strokeWidth={1.8} />
                 <span className="text-xs text-gray-500 tracking-wide">{item.label}</span>
               </div>
             ))}
@@ -90,12 +90,12 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </section>
 
       {/* Photo Gallery */}
-      <section className="bg-white py-16">
+      <section className="bg-[#fff8ef] py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-sm font-medium tracking-widest text-gray-400 uppercase mb-8">In Action</h2>
+          <h2 className="font-heading text-3xl font-bold text-primary-900 mb-8">In Action</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {galleryImages.map((img, i) => (
-              <div key={i} className="relative aspect-square overflow-hidden rounded-sm">
+              <div key={i} className="relative aspect-square overflow-hidden rounded-xl shadow-sm">
                 <Image
                   src={img.src}
                   alt={img.alt}
@@ -113,16 +113,16 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
         <CTASection homepageContent={homepageContent} />
       </ErrorBoundary>
 
-      <footer className="bg-white border-t border-gray-100">
+      <footer className="bg-primary-950 text-white border-t border-primary-900">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-primary-300">
               &copy; {new Date().getFullYear()} Community Harvest Food Bank
             </p>
             <div className="flex items-center space-x-6">
-              <Link href="/programs" className="text-sm text-gray-400 hover:text-gray-900 transition-colors">Programs</Link>
-              <Link href="/locations" className="text-sm text-gray-400 hover:text-gray-900 transition-colors">Locations</Link>
-              <Link href="/contact" className="text-sm text-gray-400 hover:text-gray-900 transition-colors">Contact</Link>
+              <Link href="/programs" className="text-sm text-primary-300 hover:text-white transition-colors">Programs</Link>
+              <Link href="/locations" className="text-sm text-primary-300 hover:text-white transition-colors">Locations</Link>
+              <Link href="/contact" className="text-sm text-primary-300 hover:text-white transition-colors">Contact</Link>
             </div>
           </div>
         </div>
