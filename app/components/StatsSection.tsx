@@ -11,18 +11,19 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
   if (!stats || stats.length === 0) return null
 
   return (
-    <section className="bg-white">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="border-t border-gray-200 py-8">
-          <div className="flex flex-wrap items-center justify-start gap-x-2 text-sm text-gray-400">
-            {stats.map((stat: any, i: number) => (
-              <span key={stat.id || i} className="flex items-center gap-x-2">
-                {i > 0 && <span className="text-gray-300">/</span>}
-                <span className="font-heading font-bold text-gray-900">{stat.value || stat.statValue}</span>
-                <span>{stat.label || stat.statLabel || stat.title}</span>
-              </span>
-            ))}
-          </div>
+    <section className="bg-primary-600">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          {stats.map((stat: any, i: number) => (
+            <div key={stat.id || i} className="text-center">
+              <div className="font-heading text-4xl md:text-5xl font-bold text-white mb-1">
+                {stat.value || stat.statValue}
+              </div>
+              <div className="text-sm text-primary-200 font-medium uppercase tracking-wide">
+                {stat.label || stat.statLabel || stat.title}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

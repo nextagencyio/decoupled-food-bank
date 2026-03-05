@@ -7,18 +7,22 @@ interface CTASectionProps {
 }
 
 export default function CTASection({ homepageContent }: CTASectionProps) {
-  const title = (homepageContent as any)?.ctaTitle || 'Help feed your community'
-  const primaryLabel = (homepageContent as any)?.ctaPrimary || 'Donate Now'
+  const title = (homepageContent as any)?.ctaTitle || 'Help Us End Hunger'
+  const primaryLabel = (homepageContent as any)?.ctaPrimary || 'Donate Today'
 
   return (
-    <section className="bg-white py-24 md:py-32">
+    <section className="bg-gray-950 py-24 md:py-32">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="font-heading text-3xl md:text-4xl font-bold tracking-tight text-gray-950 mb-10">
+        <p className="text-primary-400 text-sm font-semibold uppercase tracking-widest mb-4">Make a Difference</p>
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
           {title}
         </h2>
+        <p className="text-gray-400 text-lg mb-10 max-w-xl mx-auto">
+          Every dollar you give helps us put nutritious food on the tables of families, children, and seniors in our community.
+        </p>
         <a
           href="/contact"
-          className="inline-block border-2 border-gray-900 text-gray-900 px-8 py-3 text-sm font-medium tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-colors duration-200"
+          className="inline-block bg-primary-600 text-white font-semibold px-10 py-4 rounded hover:bg-primary-700 transition-colors duration-200 text-base"
         >
           {primaryLabel}
         </a>

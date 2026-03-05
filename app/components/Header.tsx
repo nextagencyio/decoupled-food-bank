@@ -44,33 +44,39 @@ export default function Header() {
   const activeTab = getActiveTab()
 
   return (
-    <header className="fixed left-0 right-0 z-50 bg-white/80 backdrop-blur-sm" style={{ top: bannerHeight }}>
+    <header className="fixed left-0 right-0 z-50 bg-white border-b border-gray-200" style={{ top: bannerHeight }}>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="font-heading text-lg font-bold tracking-tight text-gray-900 hover:text-primary-600 transition-colors duration-200">
             Community Harvest
           </Link>
 
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center gap-8">
             {navigationItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
                 className={clsx(
-                  'text-sm transition-colors duration-200',
+                  'text-sm font-medium transition-colors duration-200',
                   activeTab === item.name
                     ? 'text-primary-600'
-                    : 'text-gray-400 hover:text-gray-900'
+                    : 'text-gray-600 hover:text-gray-900'
                 )}
               >
                 {item.name}
               </Link>
             ))}
+            <Link
+              href="/contact"
+              className="text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded hover:bg-primary-700 transition-colors duration-200"
+            >
+              Donate
+            </Link>
           </nav>
 
           <button
             type="button"
-            className="md:hidden inline-flex items-center justify-center p-1 text-gray-400 hover:text-gray-900 transition-colors"
+            className="md:hidden inline-flex items-center justify-center p-1 text-gray-700 hover:text-gray-900 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <span className="sr-only">Open menu</span>
@@ -79,7 +85,7 @@ export default function Header() {
         </div>
 
         {mobileMenuOpen && (
-          <div className="md:hidden pb-4">
+          <div className="md:hidden pb-4 border-t border-gray-100 pt-3">
             <nav className="flex flex-col space-y-3">
               {navigationItems.map((item) => (
                 <Link
@@ -87,15 +93,22 @@ export default function Header() {
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
                   className={clsx(
-                    'text-sm transition-colors duration-200',
+                    'text-sm font-medium transition-colors duration-200',
                     activeTab === item.name
                       ? 'text-primary-600'
-                      : 'text-gray-400 hover:text-gray-900'
+                      : 'text-gray-700 hover:text-gray-900'
                   )}
                 >
                   {item.name}
                 </Link>
               ))}
+              <Link
+                href="/contact"
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-sm font-semibold bg-primary-600 text-white px-4 py-2 rounded text-center hover:bg-primary-700 transition-colors duration-200"
+              >
+                Donate
+              </Link>
             </nav>
           </div>
         )}
