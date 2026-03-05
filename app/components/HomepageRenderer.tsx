@@ -21,13 +21,13 @@ const programs = [
   { title: 'Community Kitchen', description: 'Hot meals served daily', href: '/programs' },
 ]
 
-const icons = [
-  { icon: Heart, label: 'With Love' },
-  { icon: Users, label: 'Community' },
-  { icon: Truck, label: 'Delivery' },
-  { icon: Package, label: 'Fresh Food' },
-  { icon: Hand, label: 'Volunteer' },
-  { icon: MapPin, label: 'Local' },
+const howWeHelp = [
+  { icon: Heart, title: 'With Love', description: 'Every meal is prepared and delivered with care and dignity.' },
+  { icon: Users, title: 'Community', description: 'Powered by over 500 dedicated volunteers across the region.' },
+  { icon: Truck, title: 'Delivery', description: 'Mobile pantries bring fresh food directly to neighborhoods in need.' },
+  { icon: Package, title: 'Fresh Food', description: 'Nutritious produce, proteins, and staples sourced from local farms.' },
+  { icon: Hand, title: 'Volunteer', description: 'Join our team and make a real difference in your community.' },
+  { icon: MapPin, title: 'Local', description: '12 distribution sites across the county for easy access.' },
 ]
 
 const galleryImages = [
@@ -39,7 +39,7 @@ const galleryImages = [
 
 export default function HomepageRenderer({ homepageContent }: HomepageRendererProps) {
   return (
-    <div className="min-h-screen bg-[#fffdf8]">
+    <div className="min-h-screen bg-gray-50">
       <Header />
 
       <ErrorBoundary>
@@ -51,38 +51,40 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </ErrorBoundary>
 
       {/* Programs - List View */}
-      <section className="bg-[#fffdf8] py-16">
+      <section className="bg-gray-50 py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl font-bold text-primary-900 mb-8">Our Programs</h2>
-          <div className="border-t border-gray-200 bg-white rounded-xl shadow-sm overflow-hidden">
+          <div className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-200">
             {programs.map((program, i) => (
               <Link
                 key={i}
                 href={program.href}
-                className="group flex items-center justify-between py-6 border-b border-gray-200 transition-all duration-200 hover:pl-1"
+                className="group flex items-center justify-between px-6 py-6 border-b border-gray-100 last:border-b-0 transition-all duration-200 hover:bg-gray-50"
               >
                 <div className="flex items-baseline gap-4">
                   <h3 className="text-lg font-medium text-gray-900 group-hover:text-primary-600 transition-colors duration-200">
                     {program.title}
                   </h3>
-                  <span className="text-sm text-gray-400 hidden sm:inline">{program.description}</span>
+                  <span className="text-sm text-gray-500 hidden sm:inline">{program.description}</span>
                 </div>
-                <span className="text-sm text-gray-400 shrink-0 ml-4">View</span>
+                <span className="text-sm text-gray-400 group-hover:text-primary-600 shrink-0 ml-4 transition-colors duration-200">&rarr;</span>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Icon Showcase */}
-      <section className="bg-primary-50 py-16 border-y border-primary-100">
+      {/* How We Help */}
+      <section className="bg-primary-50 py-20 border-y border-primary-100">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl font-bold text-primary-900 mb-12 text-center">How We Help</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
-            {icons.map((item, i) => (
-              <div key={i} className="flex flex-col items-center text-center">
-                <item.icon className="w-6 h-6 text-primary-700 mb-3" strokeWidth={1.8} />
-                <span className="text-xs text-gray-500 tracking-wide">{item.label}</span>
+          <h2 className="font-heading text-3xl font-bold text-primary-900 mb-4 text-center">How We Help</h2>
+          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">From farm-fresh food to community kitchens, we serve our neighbors with compassion.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {howWeHelp.map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-primary-100">
+                <item.icon className="w-8 h-8 text-primary-600 mb-4" strokeWidth={1.8} />
+                <h3 className="font-heading font-semibold text-gray-900 mb-2">{item.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -90,9 +92,10 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </section>
 
       {/* Photo Gallery */}
-      <section className="bg-[#fff8ef] py-16">
+      <section className="bg-white py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl font-bold text-primary-900 mb-8">In Action</h2>
+          <h2 className="font-heading text-3xl font-bold text-primary-900 mb-2">In Action</h2>
+          <p className="text-gray-600 mb-8">See our volunteers and programs making a difference every day.</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {galleryImages.map((img, i) => (
               <div key={i} className="relative aspect-square overflow-hidden rounded-xl shadow-sm">
