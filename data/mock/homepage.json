@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-meals",
               "title": "",
-              "number": "4.2M",
+              "number": "4.2M", "value": "4.2M",
               "label": "Meals Provided"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-families",
               "title": "",
-              "number": "38,000",
+              "number": "38,000", "value": "38,000",
               "label": "Families Served"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-volunteers",
               "title": "",
-              "number": "5,200",
+              "number": "5,200", "value": "5,200",
               "label": "Volunteers"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-partners",
               "title": "",
-              "number": "180",
+              "number": "180", "value": "180",
               "label": "Community Partners"
             }
           ],
