@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import LocationCard from '../components/LocationCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Locations | Community Harvest Food Bank',
