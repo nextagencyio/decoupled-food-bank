@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getLocations() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_LOCATIONS, { first: 50 })
+    const data = await client.raw(GET_LOCATIONS, { first: 50 })
     return data?.nodeLocations?.nodes || []
   } catch (error) {
     console.error('Error fetching locations:', error)
@@ -50,7 +50,7 @@ export default async function LocationsPage() {
             </div>
           ) : (
             <div className="border-t border-gray-200">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <LocationCard key={item.id} item={item} />
               ))}
             </div>
